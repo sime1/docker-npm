@@ -1,14 +1,17 @@
 {
-  "name": "docker-npm",
-  "version": "0.0.1",
+  "name": "docker-npm-aws-lambda",
+  "version": "0.0.4",
   "description": "Run npm install and npm rebuild from a docker container. Useful for deploying AWS Lambda functions with native modules.",
-  "main": "docker-npm",
+  "main": "./docker-npm",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sime1/docker-npm.git"
+  },
+  "bin":{
+    "docker-npm" : "docker-npm"
   },
   "author": "sime1",
   "license": "MIT",
